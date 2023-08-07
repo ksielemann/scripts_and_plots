@@ -7,4 +7,11 @@ Collection of scripts to perform small bioinformatic analyses and generate plots
 
    gggenomes_QTL_plot_species.R
 
-   Positions have to be added manually. The plots are based on the package 'gggenomes' (https://github.com/thackl/gggenomes). Both plots were combined into one figure (Figure 3 in the publication) using inkscape.
+   Positions have to be added manually.
+   
+   The alignment was performed with minimap2:
+   `minimap2 -X -c file.fasta file.fasta > alignment_chr5.paf`
+
+   The scripts are based on the package 'gggenomes' (https://github.com/thackl/gggenomes).
+   
+   Both plots were combined into one figure (Figure 3 in the publication) using inkscape.
